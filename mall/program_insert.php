@@ -24,7 +24,6 @@ if(!$ret)
 }
 else
 {
-    
     $ret1 = mysqli_query($conn, "select * from program where program_name='$program_name'");
     if(!$ret)
 	{
